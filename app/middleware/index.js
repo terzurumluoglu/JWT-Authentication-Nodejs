@@ -1,0 +1,1 @@
+exports.authorize = require('./authorize/authorize');
