@@ -1,0 +1,32 @@
+{
+  "name": "jwt-authentication-nodejs",
+  "version": "1.0.0",
+  "description": "Node.js Rest Api JWT Authentication (Access Token, Refresh Token)",
+  "main": "index.js",
+  "scripts": {
+    "test": "-"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/terzurumluoglu/JWT-Authentication-Nodejs.git"
+  },
+  "keywords": [
+    "node",
+    "restful",
+    "api",
+    "token"
+  ],
+  "author": "terzurumluoglu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/terzurumluoglu/JWT-Authentication-Nodejs/issues"
+  },
+  "homepage": "https://github.com/terzurumluoglu/JWT-Authentication-Nodejs#readme",
+  "dependencies": {
+    "body-parser": "^1.19.2",
+    "const": "^1.0.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.3",
+    "jsonwebtoken": "^8.5.1"
+  }
+}

@@ -7,7 +7,7 @@ const app = express();
 app.use(bodyParser.json()); // for parsing application/json
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(cors());
-const routes = require('./routes');
+const routes = require('./app/routes');
 app.use('/api',routes);
 
 //start http server
