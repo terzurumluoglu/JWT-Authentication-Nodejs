@@ -25,7 +25,7 @@ exports.login = (req, res) => {
 
 exports.token = (req, res) => {
     const refreshToken = req.body.token
-    if (refreshToken == null) {
+    if (refreshToken === null) {
         return res.status(401).send('UNAUTHORIZE');
     }
     else {
