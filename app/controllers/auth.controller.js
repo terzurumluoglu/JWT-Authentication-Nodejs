@@ -38,7 +38,7 @@ exports.token = (req, res) => {
                     return res.sendStatus(401)
                 }
                 const accessToken = generateAccessToken({ name: user.name })
-                res.json({ accessToken: accessToken })
+                res.json({ access_token: accessToken })
             })
         }
     }
